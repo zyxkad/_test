@@ -1,0 +1,15 @@
+
+on:
+  schedule:
+    - cron: '59 0,3,6,9,12,15,18,21 * * *'
+
+jobs:
+  timed_update:
+    runs-on: ubuntu-latest
+    steps:
+      -
+        uses: actions/github-script@v6
+        id: run-script
+        with:
+          script: |
+            console.log({github, context})
