@@ -4,6 +4,9 @@ on:
     - cron: '59 0,3,6,9,12,15,18,21 * * *'
   workflow_dispatch:
     #
+  push:
+    branches:
+    - 'master'
 
 jobs:
   timed_update:
