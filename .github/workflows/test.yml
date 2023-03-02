@@ -1,4 +1,6 @@
 
+name: scheduled-check-update
+
 on:
   workflow_dispatch:
     #
