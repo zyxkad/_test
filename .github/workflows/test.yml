@@ -3,7 +3,7 @@ name: scheduled_check_update
 
 on:
   workflow_dispatch:
-    #
+    ##
   push:
     branches:
     - 'main'
