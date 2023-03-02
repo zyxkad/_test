@@ -6,8 +6,7 @@ on:
     branches:
     - 'main'
   commit_comment:
-    branches:
-    - 'main'
+    #
 
 jobs:
   timed_update:
