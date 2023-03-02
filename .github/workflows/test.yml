@@ -1,5 +1,5 @@
 
-name: scheduled-check-update
+name: scheduled_check_update
 
 on:
   workflow_dispatch:
