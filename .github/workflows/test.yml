@@ -18,3 +18,5 @@ jobs:
         with:
           script: |
             console.log({github, context})
+            var res = await github.requests('https://api.github.com/repos/Fallen-Breath/MCDReforged/releases/latest')
+            console.log(res)
